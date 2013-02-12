@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC83A8A116C4F87D0091D69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A8A016C4F87D0091D69A /* Foundation.framework */; };
+		AC83A8B016C4F87D0091D69A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A8AF16C4F87D0091D69A /* SenTestingKit.framework */; };
+		AC83A8B216C4F87D0091D69A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A8B116C4F87D0091D69A /* UIKit.framework */; };
+		AC83A8B316C4F87D0091D69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A8A016C4F87D0091D69A /* Foundation.framework */; };
+		AC83A8B616C4F87D0091D69A /* libCppTweener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A89D16C4F87D0091D69A /* libCppTweener.a */; };
+		AC83A8BC16C4F87D0091D69A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC83A8BA16C4F87D0091D69A /* InfoPlist.strings */; };
+		AC83A8BF16C4F87D0091D69A /* CppTweenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC83A8BE16C4F87D0091D69A /* CppTweenerTests.m */; };
+		AC83A91316C4F8FA0091D69A /* CppTweener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A91116C4F8FA0091D69A /* CppTweener.cpp */; };
+		AC83A91416C4F8FA0091D69A /* CppTweener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A91116C4F8FA0091D69A /* CppTweener.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC83A8B416C4F87D0091D69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC83A89516C4F87D0091D69A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC83A89C16C4F87D0091D69A;
+			remoteInfo = CppTweener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC83A89B16C4F87D0091D69A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC83A89D16C4F87D0091D69A /* libCppTweener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCppTweener.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83A8A016C4F87D0091D69A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC83A8A416C4F87D0091D69A /* CppTweener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CppTweener-Prefix.pch"; sourceTree = "<group>"; };
+		AC83A8AE16C4F87D0091D69A /* CppTweenerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CppTweenerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83A8AF16C4F87D0091D69A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC83A8B116C4F87D0091D69A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC83A8B916C4F87D0091D69A /* CppTweenerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CppTweenerTests-Info.plist"; sourceTree = "<group>"; };
+		AC83A8BB16C4F87D0091D69A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC83A8BD16C4F87D0091D69A /* CppTweenerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppTweenerTests.h; sourceTree = "<group>"; };
+		AC83A8BE16C4F87D0091D69A /* CppTweenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppTweenerTests.m; sourceTree = "<group>"; };
+		AC83A91116C4F8FA0091D69A /* CppTweener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CppTweener.cpp; path = ../../CppTweener.cpp; sourceTree = "<group>"; };
+		AC83A91216C4F8FA0091D69A /* CppTweener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CppTweener.h; path = ../../CppTweener.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC83A89A16C4F87D0091D69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A8A116C4F87D0091D69A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83A8AA16C4F87D0091D69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A8B016C4F87D0091D69A /* SenTestingKit.framework in Frameworks */,
+				AC83A8B216C4F87D0091D69A /* UIKit.framework in Frameworks */,
+				AC83A8B316C4F87D0091D69A /* Foundation.framework in Frameworks */,
+				AC83A8B616C4F87D0091D69A /* libCppTweener.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC83A89416C4F87D0091D69A = {
+			isa = PBXGroup;
+			children = (
+				AC83A8A216C4F87D0091D69A /* CppTweener */,
+				AC83A8B716C4F87D0091D69A /* CppTweenerTests */,
+				AC83A89F16C4F87D0091D69A /* Frameworks */,
+				AC83A89E16C4F87D0091D69A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC83A89E16C4F87D0091D69A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A89D16C4F87D0091D69A /* libCppTweener.a */,
+				AC83A8AE16C4F87D0091D69A /* CppTweenerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC83A89F16C4F87D0091D69A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A8A016C4F87D0091D69A /* Foundation.framework */,
+				AC83A8AF16C4F87D0091D69A /* SenTestingKit.framework */,
+				AC83A8B116C4F87D0091D69A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC83A8A216C4F87D0091D69A /* CppTweener */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A91116C4F8FA0091D69A /* CppTweener.cpp */,
+				AC83A91216C4F8FA0091D69A /* CppTweener.h */,
+				AC83A8A316C4F87D0091D69A /* Supporting Files */,
+			);
+			path = CppTweener;
+			sourceTree = "<group>";
+		};
+		AC83A8A316C4F87D0091D69A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A8A416C4F87D0091D69A /* CppTweener-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC83A8B716C4F87D0091D69A /* CppTweenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A8BD16C4F87D0091D69A /* CppTweenerTests.h */,
+				AC83A8BE16C4F87D0091D69A /* CppTweenerTests.m */,
+				AC83A8B816C4F87D0091D69A /* Supporting Files */,
+			);
+			path = CppTweenerTests;
+			sourceTree = "<group>";
+		};
+		AC83A8B816C4F87D0091D69A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A8B916C4F87D0091D69A /* CppTweenerTests-Info.plist */,
+				AC83A8BA16C4F87D0091D69A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC83A89C16C4F87D0091D69A /* CppTweener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC83A8C216C4F87D0091D69A /* Build configuration list for PBXNativeTarget "CppTweener" */;
+			buildPhases = (
+				AC83A89916C4F87D0091D69A /* Sources */,
+				AC83A89A16C4F87D0091D69A /* Frameworks */,
+				AC83A89B16C4F87D0091D69A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CppTweener;
+			productName = CppTweener;
+			productReference = AC83A89D16C4F87D0091D69A /* libCppTweener.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC83A8AD16C4F87D0091D69A /* CppTweenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC83A8C516C4F87D0091D69A /* Build configuration list for PBXNativeTarget "CppTweenerTests" */;
+			buildPhases = (
+				AC83A8A916C4F87D0091D69A /* Sources */,
+				AC83A8AA16C4F87D0091D69A /* Frameworks */,
+				AC83A8AB16C4F87D0091D69A /* Resources */,
+				AC83A8AC16C4F87D0091D69A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC83A8B516C4F87D0091D69A /* PBXTargetDependency */,
+			);
+			name = CppTweenerTests;
+			productName = CppTweenerTests;
+			productReference = AC83A8AE16C4F87D0091D69A /* CppTweenerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC83A89516C4F87D0091D69A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = vanillabreeze;
+			};
+			buildConfigurationList = AC83A89816C4F87D0091D69A /* Build configuration list for PBXProject "CppTweener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC83A89416C4F87D0091D69A;
+			productRefGroup = AC83A89E16C4F87D0091D69A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC83A89C16C4F87D0091D69A /* CppTweener */,
+				AC83A8AD16C4F87D0091D69A /* CppTweenerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC83A8AB16C4F87D0091D69A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A8BC16C4F87D0091D69A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC83A8AC16C4F87D0091D69A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC83A89916C4F87D0091D69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A91316C4F8FA0091D69A /* CppTweener.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83A8A916C4F87D0091D69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A8BF16C4F87D0091D69A /* CppTweenerTests.m in Sources */,
+				AC83A91416C4F8FA0091D69A /* CppTweener.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC83A8B516C4F87D0091D69A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC83A89C16C4F87D0091D69A /* CppTweener */;
+			targetProxy = AC83A8B416C4F87D0091D69A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC83A8BA16C4F87D0091D69A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC83A8BB16C4F87D0091D69A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC83A8C016C4F87D0091D69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC83A8C116C4F87D0091D69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC83A8C316C4F87D0091D69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CppTweener.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CppTweener/CppTweener-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC83A8C416C4F87D0091D69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CppTweener.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CppTweener/CppTweener-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC83A8C616C4F87D0091D69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CppTweener/CppTweener-Prefix.pch";
+				INFOPLIST_FILE = "CppTweenerTests/CppTweenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC83A8C716C4F87D0091D69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CppTweener/CppTweener-Prefix.pch";
+				INFOPLIST_FILE = "CppTweenerTests/CppTweenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC83A89816C4F87D0091D69A /* Build configuration list for PBXProject "CppTweener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83A8C016C4F87D0091D69A /* Debug */,
+				AC83A8C116C4F87D0091D69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC83A8C216C4F87D0091D69A /* Build configuration list for PBXNativeTarget "CppTweener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83A8C316C4F87D0091D69A /* Debug */,
+				AC83A8C416C4F87D0091D69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC83A8C516C4F87D0091D69A /* Build configuration list for PBXNativeTarget "CppTweenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83A8C616C4F87D0091D69A /* Debug */,
+				AC83A8C716C4F87D0091D69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC83A89516C4F87D0091D69A /* Project object */;
+}

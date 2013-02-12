@@ -219,7 +219,7 @@ namespace tween {
 
         float Tweener::runEquation(int transition,int equation, float t,float b , float c, float d) {
 
-			float result;
+			float result = 0.0;
 			if (equation == EASE_IN) {
 				result = funcs[transition]->easeIn(t,b,c,d);
 			} else if (equation == EASE_OUT) {
