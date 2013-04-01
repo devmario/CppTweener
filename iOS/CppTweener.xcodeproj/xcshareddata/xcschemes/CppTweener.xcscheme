@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC83A8AD16C4F87D0091D69A"
-               BuildableName = "CppTweenerTests.octest"
-               BlueprintName = "CppTweenerTests"
-               ReferencedContainer = "container:CppTweener.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
