@@ -372,12 +372,12 @@ namespace tween {
                     } else {
 						if ((*tweensIT).decreaseRepeat() < 0 ) {
 							//garante o valor final
-							/*for (unsigned int i =0 ; i < (*tweensIT).total_properties; i++ ) {
+							for (unsigned int i =0 ; i < (*tweensIT).total_properties; i++ ) {
                                 TweenerProperty prop = (*tweensIT).properties[i];
                                 if (prop.ptrValue != NULL ) {
 									*(prop.ptrValue) = prop.finalValue;
 								}
-                            }*/
+                            }
 							dispatchEvent(&(*tweensIT), ON_COMPLETE);							
 							if ((*tweensIT).onCompleteCallBack){
 								(*tweensIT).onCompleteCallBack();
