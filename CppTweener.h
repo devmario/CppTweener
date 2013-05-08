@@ -208,6 +208,7 @@ namespace tween {
 		TweenerCallBack onStepCallBack;
 		
 		TweenerParam() {
+			properties = std::vector<TweenerProperty>();
 			useMilliSeconds = true;
 			timeCount = 0;
 			started = false;
@@ -352,6 +353,10 @@ namespace tween {
 		
 	public:
 		Tweener() {
+			this->tweens = std::list<TweenerParam>();
+			this->tweensIT = std::list<TweenerParam>::iterator();
+			this->listeners = std::list<TweenerListener*>();
+			this->listenerIT = std::list<TweenerListener*>::iterator();
 			this->funcs[LINEAR] = &fLinear;
 			this->funcs[SINE]  = &fSine;
 			this->funcs[QUINT] = &fQuint;
