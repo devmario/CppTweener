@@ -16,6 +16,8 @@
 		AC83A8BF16C4F87D0091D69A /* CppTweenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC83A8BE16C4F87D0091D69A /* CppTweenerTests.m */; };
 		AC83A91316C4F8FA0091D69A /* CppTweener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A91116C4F8FA0091D69A /* CppTweener.cpp */; };
 		AC83A91416C4F8FA0091D69A /* CppTweener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A91116C4F8FA0091D69A /* CppTweener.cpp */; };
+		ACB10B11174212DE002DF8D2 /* tween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB10B0F174212DE002DF8D2 /* tween.cpp */; };
+		ACB10B12174212DE002DF8D2 /* tween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB10B0F174212DE002DF8D2 /* tween.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		AC83A8BE16C4F87D0091D69A /* CppTweenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppTweenerTests.m; sourceTree = "<group>"; };
 		AC83A91116C4F8FA0091D69A /* CppTweener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CppTweener.cpp; path = ../../CppTweener.cpp; sourceTree = "<group>"; };
 		AC83A91216C4F8FA0091D69A /* CppTweener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CppTweener.h; path = ../../CppTweener.h; sourceTree = "<group>"; };
+		ACB10B0F174212DE002DF8D2 /* tween.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tween.cpp; path = ../../tween.cpp; sourceTree = "<group>"; };
+		ACB10B10174212DE002DF8D2 /* tween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tween.h; path = ../../tween.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 		AC83A8A216C4F87D0091D69A /* CppTweener */ = {
 			isa = PBXGroup;
 			children = (
+				ACB10B0F174212DE002DF8D2 /* tween.cpp */,
+				ACB10B10174212DE002DF8D2 /* tween.h */,
 				AC83A91116C4F8FA0091D69A /* CppTweener.cpp */,
 				AC83A91216C4F8FA0091D69A /* CppTweener.h */,
 				AC83A8A316C4F87D0091D69A /* Supporting Files */,
@@ -243,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC83A91316C4F8FA0091D69A /* CppTweener.cpp in Sources */,
+				ACB10B11174212DE002DF8D2 /* tween.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +259,7 @@
 			files = (
 				AC83A8BF16C4F87D0091D69A /* CppTweenerTests.m in Sources */,
 				AC83A91416C4F8FA0091D69A /* CppTweener.cpp in Sources */,
+				ACB10B12174212DE002DF8D2 /* tween.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

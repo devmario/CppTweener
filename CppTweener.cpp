@@ -336,7 +336,7 @@ namespace tween {
 
 				dispatchEvent(&(*tweensIT), ON_STEP);
 				if ((*tweensIT).onStepCallBack){
-					(*tweensIT).onStepCallBack();					
+					(*tweensIT).onStepCallBack((*tweensIT).ptr);
 				}	
 
 				if ((*tweensIT).useMilliSeconds == true) {
@@ -378,9 +378,10 @@ namespace tween {
 									*(prop.ptrValue) = prop.finalValue;
 								}
                             }
+							(*tweensIT).ended = true;
 							dispatchEvent(&(*tweensIT), ON_COMPLETE);							
 							if ((*tweensIT).onCompleteCallBack){
-								(*tweensIT).onCompleteCallBack();
+								(*tweensIT).onCompleteCallBack((*tweensIT).ptr);
 								(*tweensIT).onCompleteCallBack = 0;
 								(*tweensIT).onStepCallBack = 0;
 							}	

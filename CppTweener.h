@@ -176,7 +176,7 @@ namespace tween {
     static Back fBack;
 	
 	//callback temp
-	typedef void (*TweenerCallBack)();	
+	typedef void (*TweenerCallBack)(void* _ptr);
 	
 	
 	struct TweenerProperty {
@@ -204,6 +204,9 @@ namespace tween {
 		bool reverse;
 		int repeat;
 		int reverseCount;
+		void* ptr;
+		std::string tag;
+		bool ended;
 		TweenerCallBack onCompleteCallBack;
 		TweenerCallBack onStepCallBack;
 		
@@ -220,6 +223,9 @@ namespace tween {
 			repeat = -1;
 			reverse = false;
 			reverseCount = -1;
+			
+			ended = false;
+			ptr = NULL;
 		}
 		~TweenerParam(){
 			properties.clear();
@@ -240,6 +246,9 @@ namespace tween {
 			repeat = -1;
 			reverse = false;
 			reverseCount = -1;
+			
+			ended = false;
+			ptr = NULL;
 		}
 		
 		void setRepeatWithReverse(int _n,bool _reverse=false) {
@@ -326,9 +335,9 @@ namespace tween {
 	public:
 		TweenerListener(){};
 		~TweenerListener(){};
-		virtual void onStart(TweenerParam& param) = 0;
-		virtual void onStep(TweenerParam& param) = 0 ;
-		virtual void onComplete(TweenerParam& param) = 0 ;
+		virtual void onStart(TweenerParam& param) {};
+		virtual void onStep(TweenerParam& param) {};
+		virtual void onComplete(TweenerParam& param) {};
 		bool operator==( const TweenerListener& l ) {
 			return (this == &l) ;
 		};
@@ -336,13 +345,14 @@ namespace tween {
 	
 	
 	class Tweener {
-        protected :
+	protected:
 		enum {ON_START, ON_STEP, ON_COMPLETE};
 		short currentFunction ;
 		Easing *funcs[11];
 		long lastTime;
-		
+	public:
 		std::list<TweenerParam> tweens;
+	protected:
 		std::list<TweenerParam>::iterator tweensIT;
 		std::list<TweenerListener*> listeners;
 		std::list<TweenerListener*>::iterator listenerIT;
