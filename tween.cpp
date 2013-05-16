@@ -46,21 +46,31 @@ void tween_manager::start(std::string _tag, long _time, float* _src, float _dst,
 
 void tween_manager::update(float _tick) {
 	long _milli_seconds = _tick * 1000;
+	std::vector<std::list<animation>::iterator> vec_remove;
 	std::list<animation>::iterator _it = list_animation.begin();
 	while (_it != list_animation.end()) {
 		if(!update_animation(_it, _milli_seconds)) {
-			list_animation.remove(*_it);
+			vec_remove.push_back(_it);
 		}
 		_it++;
+	}
+	while (!vec_remove.empty()) {
+		list_animation.remove(*vec_remove.back());
+		vec_remove.pop_back();
 	}
 }
 
 void tween_manager::stop(std::string _tag) {
+	std::vector<std::list<animation>::iterator> vec_remove;
 	std::list<animation>::iterator _it = list_animation.begin();
 	while (_it != list_animation.end()) {
 		if((*_it).tag == _tag) {
-			list_animation.remove(*_it);
+			vec_remove.push_back(_it);
 		}
 		_it++;
+	}
+	while (!vec_remove.empty()) {
+		list_animation.remove(*vec_remove.back());
+		vec_remove.pop_back();
 	}
 }
