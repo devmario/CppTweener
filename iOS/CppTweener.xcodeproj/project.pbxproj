@@ -339,6 +339,7 @@
 		AC83A8C316C4F87D0091D69A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				DSTROOT = /tmp/CppTweener.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CppTweener/CppTweener-Prefix.pch";
@@ -352,6 +353,7 @@
 		AC83A8C416C4F87D0091D69A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				DSTROOT = /tmp/CppTweener.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CppTweener/CppTweener-Prefix.pch";
